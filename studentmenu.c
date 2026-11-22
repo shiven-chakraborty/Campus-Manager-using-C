@@ -58,7 +58,7 @@ void studentmenu()
             searchStudent();
             break;
         case 4:
-            printf("\nGoing back to main menu\n");
+            printf("\nGoing back to main menu...\n");
             break;
         
         default:
@@ -68,4 +68,36 @@ void studentmenu()
 
     } while (choice != 4);
     
+}
+
+
+
+//Adding student records
+void addStudent()
+{
+    printf("\nStudents Addition\n");
+}
+
+
+
+//Displaying student records
+void displayStudents()
+{
+    printf("\nStudent records\n");
+}
+
+
+
+//Finding students
+int findStudentIndex(int roll)
+{
+    printf("Finding students");
+}
+
+
+
+//Searching students 
+void searchStudent()
+{
+    printf("\nStudent searching\n");
 }

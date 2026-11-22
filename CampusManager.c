@@ -54,6 +54,7 @@ void mainmenu()
             break;
         case 5:
             printf("Thank you for using our app");
+            break;
 
         default:
             printf("\nEnter a valid value\n");
