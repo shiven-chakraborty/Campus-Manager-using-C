@@ -1,0 +1,5 @@
+{
+    "code-runner.executorMap": {
+        "c": "cd $dir ; if ($?) { gcc *.c -o CampusManager.exe } ; if ($?) { .\\CampusManager.exe }"
+    }
+}
